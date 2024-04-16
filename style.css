@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px auto;
+    width: 430px;
+    background-color: gray;
+    padding: 25px;;
+    border-radius: 20px;
+}
+
+.display {
+    background-color: lightgray;
+    width: 100%;
+    min-height: 80px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    box-sizing: border-box;
+    padding: 8px;
+    text-align: right;
+}
+
+.big {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2px 2px;
+}
+
+.clear, .backspace {
+    font-size: 28px;
+    padding: 8px 40px;
+}
+
+.copy, .style, .sign {
+    font-size: 28px;
+    padding: 32px 40px;
+
+}
+
+.dot {
+    padding: 32px 45px;
+}
